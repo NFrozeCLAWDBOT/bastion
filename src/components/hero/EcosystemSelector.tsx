@@ -23,7 +23,7 @@ export function EcosystemSelector({
           key={eco.value}
           onClick={() => onChange(eco.value)}
           className={cn(
-            "px-4 py-2 font-mono text-sm transition-all duration-200 cursor-pointer",
+            "px-3 sm:px-4 py-2 font-mono text-sm whitespace-nowrap transition-all duration-200 cursor-pointer",
             value === eco.value
               ? "bg-crimson/20 text-crimson border-crimson/30"
               : "text-smoke-grey hover:text-ash-white hover:bg-white/5"
